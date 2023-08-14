@@ -12,6 +12,10 @@ typedef struct{
 //Função para adicionar tarefas
 void add(Tarefa lista[], int *contador){
     while(*contador < limite){
+        printf("\n-------------------------------------------------");
+        printf("\nDigite '0' e pressione enter para salvar a lista.");
+        printf("\nA lista suporta 20 itens no máximo.");
+        printf("\n-------------------------------------------------\n");
         printf(">> ");
         char texto[100];
         scanf(" %[^\n]", texto);
