@@ -1,2 +1,2 @@
 # Lista-de-Tarefas
-Projeto de um programa para criar listas de tarefas em linguegem C.
+Projeto desenvolvido em linguegem C com o objetivo de testar meus conhecimento nessa linguagem de programação.
