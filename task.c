@@ -19,11 +19,9 @@ void add(Tarefa lista[], int *contador){
         printf(">> ");
         char texto[100];
         scanf(" %[^\n]", texto);
-
         if (strcmp(texto, "0") == 0) {
             break;
         }
-
         if (*contador < limite) {
             strcpy(lista[*contador].item, texto);
             lista[*contador].check = 0;
